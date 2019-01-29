@@ -1,0 +1,8 @@
+---
+# tasks file for lxd-host
+
+- name: Placeholder
+  debug:
+    msg: "TODO: Flesh out this role"
+
+...
