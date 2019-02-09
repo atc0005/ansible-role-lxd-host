@@ -1,0 +1,17 @@
+---
+
+# defaults file for lxd-host
+
+# By default, assume that the host LXD test system should not have
+# the initial packages installed. Instead, have the playbook user
+# explicitly request this.
+#lxd_host_initial_setup: true
+
+lxd_host_packages_required:
+  - "lxd"
+  - "lxd-client"
+  - "zfsutils-linux"
+  - "lxd-tools"
+  - "criu"
+
+...
